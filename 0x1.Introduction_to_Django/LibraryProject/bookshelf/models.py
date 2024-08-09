@@ -6,5 +6,5 @@ class Book(models.Model):
     publication_year = models.IntegerField
 
     def __str__(self):
-        return self.title ,self.author, self.publication_year
+        return self.title
 # Create your models here.
