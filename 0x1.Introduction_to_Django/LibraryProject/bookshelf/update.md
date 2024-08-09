@@ -1,7 +1,8 @@
-# this updates the selected attribute of the book
+# update.md
 
-update_book = Book.object.get(title = '1984)
-
-# update the book
-update_book.title = 'Nineteen Eighty-Four'
-update_book.save()
+# Update Book Title
+>>> ...
+>>> book.title = "Nineteen Eighty-Four"
+>>> book.save()
+>>> print(book.title)
+# Output: Nineteen Eighty-Four

@@ -1,7 +1,7 @@
-# create a book instance
+# create.md
 
-book = Book(title= '1984', author= 'George Orwell',publication_year= '1949')
-book.save()
-
-# expected output
-# 1949 George Orwell 1949
+# Create Book
+>>> ...
+>>> book = Book.objects.create(title="1984", author="George Orwell", publication_year=1949)
+>>> print(book)
+# Output: 1984

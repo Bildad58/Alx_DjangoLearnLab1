@@ -1,7 +1,11 @@
-# delete book that was previously created
+# delete.md
 
-delete_book = Book.object.get(title= 'Nineteen Eighty-Four', author = 'George Orwell' publication_year = '1949')
-delete_book.delete()
-
-# expected output
-# []
+# Delete Book
+>>> from bookshelf.models import Book
+>>> book.delete()
+>>> book = Book.objects.first()
+>>> Book.objects.filter(id=1).delete()
+(0, {})
+>>> books = Book.objects.all()
+>>> print(list(books))
+# Output: []

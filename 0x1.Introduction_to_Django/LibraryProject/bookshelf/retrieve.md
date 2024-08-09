@@ -1,9 +1,7 @@
-# Retrieving a book from its location
+# retrieve.md
 
-retrieved_book = Book.object.get(book.id)
-print(retrieved_book.title,  retrieved_book.author, retrieved_book.publication_year)
-
-# expected output
-# title = 1984
-# author = George Orwell
-# pulication_year = 1949
+# Retrieve Book
+>>> ...
+>>> book = Book.objects.get(id=1)
+print(book.title, book.author, book.publication_year)
+# Output: 1984 George Orwell 1949
