@@ -20,11 +20,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-<<<<<<< HEAD
-SECRET_KEY = 'django-insecure-ml%6lq3jk$$3t*h_7ure34@g%rq1af#*%8k@fl1x3x6j8j=x3h'
-=======
 SECRET_KEY = 'django-insecure-i69*urryx1%ic#6s=!ovt&wjzhtg0q43jg!+)8a_ogdofi@^k('
->>>>>>> 74694a0488bb0d3ed45ebf4b3e39cf5ad900e511
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -42,7 +38,6 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'bookshelf',
-    'relationship_app',
 ]
 
 MIDDLEWARE = [
@@ -81,17 +76,12 @@ WSGI_APPLICATION = 'LibraryProject.wsgi.application'
 
 DATABASES = {
     'default': {
-<<<<<<< HEAD
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-=======
        'ENGINE': 'django.db.backends.mysql',
         'NAME': 'LibraryProject',
         'USER': 'root',
         'PASSWORD': 'Bildad_Khaoya@58',
         'HOST': '127.0.0.1',
         'PORT': '3306',
->>>>>>> 74694a0488bb0d3ed45ebf4b3e39cf5ad900e511
     }
 }
 
