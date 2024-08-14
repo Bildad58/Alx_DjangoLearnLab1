@@ -1,3 +1,4 @@
+
 from django.contrib import admin
 from .models import Book
 
@@ -16,4 +17,5 @@ class BookAdmin(admin.ModelAdmin):
 # register  Book and Bookadmon
 admin.site.register(Book, BookAdmin)
 
+# Register your models here.
 # Register your models here.
